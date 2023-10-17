@@ -1,0 +1,3 @@
+C:/Users/garbi/CLionProjects/k-means-clustering-RTree/cmake-build-debug/CMakeFiles/k_means_clustering_RTree.dir
+C:/Users/garbi/CLionProjects/k-means-clustering-RTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/garbi/CLionProjects/k-means-clustering-RTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

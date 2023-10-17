@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.7)
+project(k_means_clustering_RTree)
+set(CMAKE_CXX_STANDARD 17)
+
+find_package (Python3 COMPONENTS Interpreter NumPy REQUIRED)
+find_package(Python3 REQUIRED)
+find_package(PythonLibs REQUIRED)
+include_directories(${NUMPY_INCLUDE_DIRS})
+include_directories(${PYTHON_INCLUDE_DIRS})
+add_executable(k_means_clustering_RTree RTree.cpp)
+target_link_libraries(k_means_clustering_RTree ${PYTHON_LIBRARIES} Python3::NumPy)
